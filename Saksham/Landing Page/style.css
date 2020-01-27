@@ -178,6 +178,7 @@ h1 {
   z-index: 11;
   background: -webkit-linear-gradient(top, #151C60, #C6CBF5 40%, black 40%, #E1A0CE 65%, white);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: white;

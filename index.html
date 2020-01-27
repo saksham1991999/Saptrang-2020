@@ -7,49 +7,13 @@
     <title>Saptrang 2k20</title>
     <link rel="image_src" type="image/jpeg" href="/assets/images/logo.png">
     <link rel="stylesheet" href="assets/semantic.css">
-    <link rel="stylesheet" href="/assets/docs.css">
     <link rel="stylesheet" href="/assets/home.css">
     <link rel="stylesheet" href="assets/waves.css">
+    <link rel="stylesheet" href="/assets/docs.css"> 
 </head>
 <body id="saptrang" class="index pushable" ontouchstart="">
-    <div class="ui vertical inverted sidebar menu left" id="toc" style="">
-        <div class="item">
-            <a class="ui logo icon image" href="/">
-                <img src="/assets/images/logo.png">
-                <!-- logo placeholder -->
-            </a>
-            <a href="#"><b>Saptrang 2k20</b></a>
-        </div>
-        <!-- Vertical menu items go here -->
-        <div class="item">
-            <div class="header">Hello World</div>
-        </div>
-    </div>
-    <div class="ui black big launch right attached fixed button"">
-        <i class="content icon"></i>
-    </div>
-    <div class="ui fixed inverted main menu">
-        <div class="ui container">
-            <a class="launch icon item">
-                <i class="content icon"></i>
-            </a>
-        </div>
-    </div>
-    <div class="ui fixed inverted main menu">
-        <div class="ui container">
-            <a class="launch icon item">
-                <i class="content icon"></i>
-            </a>
-            <div class="right menu">
-
-                <div class="vertically fitted borderless item">
-                    <i>navbar stuff might go here</i>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="pusher">
-        <!-- page canvas -->
+    <!-- page canvas -->
         <div class="full height">
             <!-- navbar -->
             <div class="following bar">
@@ -76,45 +40,42 @@
             <div class="masthead segment">
                 <!-- landing -->
                 <div class="ui container">
-                    <div class='ground'>
-                        <div class='wave vertical left wave-0'></div>
-                        <div class='wave vertical left wave-1'></div>
-                        <div class='wave vertical left wave-2'></div>
-                        <div class='wave vertical left wave-3'></div>
-                        <div class='wave vertical left wave-4'></div>
-                        <div class='wave vertical left wave-5'></div>
-                        <div class='wave vertical right wave-0'></div>
-                        <div class='wave vertical right wave-1'></div>
-                        <div class='wave vertical right wave-2'></div>
-                        <div class='wave vertical right wave-3'></div>
-                        <div class='wave vertical right wave-4'></div>
-                        <div class='wave vertical right wave-5'></div>
-                        <div class='wave horizontal left wave-10'></div>
-                        <div class='wave horizontal left wave-11'></div>
-                        <div class='wave horizontal left wave-12'></div>
-                        <div class='wave horizontal left wave-13'></div>
-                        <div class='wave horizontal left wave-14'></div>
-                        <div class='wave horizontal left wave-15'></div>
-                        <div class='wave horizontal left wave-16'></div>
-                        <div class='wave horizontal left wave-17'></div>
-                        <div class='wave horizontal left wave-18'></div>
-                        <div class='wave horizontal left wave-19'></div>
-                        <div class='wave horizontal right wave-10'></div>
-                        <div class='wave horizontal right wave-11'></div>
-                        <div class='wave horizontal right wave-12'></div>
-                        <div class='wave horizontal right wave-13'></div>
-                        <div class='wave horizontal right wave-14'></div>
-                        <div class='wave horizontal right wave-15'></div>
-                        <div class='wave horizontal right wave-16'></div>
-                        <div class='wave horizontal right wave-17'></div>
-                        <div class='wave horizontal right wave-18'></div>
-                        <div class='wave horizontal right wave-19'></div>
+                    <div class="wrapper">
+                        <div class="inner-wrapper">
+                            <div class="landscape"></div>
+                        </div>
+                        <div class="triangle"></div>
+                        <div class="wrapper">
+                            <h1 class="h1">Saptrang </h1>
+                            <h2 class="h2">2020</h2>
+                            <svg preserveAspectRatio="xMidYMid meet" height="320" width="400" class="logo-triangle">
+                                <defs>
+                                    <linearGradient id="grad1" x1="0%" y1="100%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color:rgb(50,50,50);stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:black;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <filter id="dropshadow" height="130%">
+                                    <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+                                    <feOffset dx="2" dy="2" result="offsetblur" />
+                                    <feMerge>
+                                        <feMergeNode/>
+                                        <feMergeNode in="SourceGraphic" />
+                                    </feMerge>
+                                </filter>
+                                <polygon points="0,0 400,0 200,300" stroke="#36e2f8" stroke-width="3" />
+                            </svg>
+                        </div>
+                        <button class="circular ui icon button" id="jumpdown">
+                            <i class="icon chevron down"></i>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- rest of the page will go here -->
         <!-- footer -->
-        <div class="ui  vertical footer segment">
+        <div class="ui vertical footer segment">
                 <div class="ui center aligned container">
                     <div class="ui stackable grid">
                         <div class="two wide column">
@@ -139,7 +100,6 @@
     <script src="/assets/jquery.js"></script>
     <script src="/assets/highlight.js"></script>
     <script src="/assets/semantic.js"></script>
-    <script src="/assets/docs.js"></script>
     <script src="/assets/home.js"></script>
     <script src="/assets/less.js"></script>
 </body>

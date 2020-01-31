@@ -44,13 +44,13 @@
 	<link rel='stylesheet' id='-css' href='http://fonts.googleapis.com/css?family=Merriweather%3A300%2Cregular%2C700%7CBarlow+Condensed%3Aregular%2C700%7CBarlow+Condensed%3Aregular%2C700%7CSatisfy%3Aregular&amp;subset=latin&amp;ver=4.9.9' type='text/css' media='all' />
 	<link rel='stylesheet' id='reset-css' href='/assets/reset.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='layout-css' href='/assets/layout.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='cws_font_awesome-css' href='http://vintwood.cwsthemes.com/wp-content/themes/vintwood/fonts/font-awesome/font-awesome.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='cws_font_awesome-css' href='/assets/fontawesome.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='fancybox-css' href='/assets/jquery.fancybox.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='select2_init-css' href='/assets/select2.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='animate-css' href='/assets/animate.css' type='text/css' media='all' />
 	<link rel="stylesheet" id='empty-inline-css' href="/assets/inline.css" />
 	<link rel='stylesheet' id='cws_flaticon-css' href='http://vintwood.cwsthemes.com/wp-content/themes/vintwood/fonts/flaticon/flaticon.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='font-awesome-css' href='http://vintwood.cwsthemes.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='font-awesome-css' href='/assets/fontawesome.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='cws_iconpack-css' href='http://vintwood.cwsthemes.com/wp-content/themes/vintwood/fonts/cws-iconpack/flaticon.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='cws_main-css' href='/assets/main.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='woocommerce-css' href='http://vintwood.cwsthemes.com/wp-content/themes/vintwood/woocommerce/css/woocommerce.css' type='text/css' media='all' />
@@ -65,25 +65,14 @@
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-includes/js/jquery/jquery.js'></script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
 	<script type='text/javascript'>
-		/* <![CDATA[ */
 		var simpleLikes = {"ajaxurl":"http:\/\/vintwood.cwsthemes.com\/wp-admin\/admin-ajax.php","like":"Like","unlike":"Unlike"};
-		/* ]]> */
 	</script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/cws-essentials/assets/js/simple-likes-public.js'></script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/cws-megamenu/assets/js/cws_megamenu_front.js'></script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
-	<script type='text/javascript'>
-		/* <![CDATA[ */
-		var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/vintwood.cwsthemes.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
-		/* ]]> */
-	</script>
-	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js'></script>
-	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js'></script>
-	<script type='text/javascript'>
-		/* <![CDATA[ */
+	<script>
 		var ajaxurl = {"templateDir":"http:\/\/vintwood.cwsthemes.com\/wp-content\/themes\/vintwood","url":"http:\/\/vintwood.cwsthemes.com\/wp-admin\/admin-ajax.php"};
-		/* ]]> */
 	</script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/themes/vintwood/js/scripts.js'></script>
 	<script type='text/javascript'>
@@ -95,8 +84,6 @@
 	<link rel='https://api.w.org/' href='http://vintwood.cwsthemes.com/wp-json/' />
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://vintwood.cwsthemes.com/xmlrpc.php?rsd" />
 	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://vintwood.cwsthemes.com/wp-includes/wlwmanifest.xml" />
-	<meta name="generator" content="WordPress 4.9.9" />
-	<meta name="generator" content="WooCommerce 3.4.5" />
 	<link rel="canonical" href="index.html" />
 	<link rel='shortlink' href='index.html' />
 	<link rel="alternate" type="application/json+oembed" href="http://vintwood.cwsthemes.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fvintwood.cwsthemes.com%2F" />
@@ -125,7 +112,6 @@
 		</style>
 	</noscript>
 </head>
-
 <body class="home page-template-default page page-id-186 woocommerce-no-js show_mobile_menu wide  vintwood-new-layout wpb-js-composer js-comp-ver-5.5.2 vc_responsive">
 	<div class="side_panel_overlay fade"></div>
 	<div class="side_panel_container left fade">
@@ -169,15 +155,7 @@
 						</li>
 						<li class="menu-item menu-item-type-post_type menu-item-object-megamenu_item menu-item-748"><span class='cws_megamenu_item_title'>MEMBERS</span><span class='button_open'></span><span class='pointer'></span>
 						</li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-691"><a href="http://vintwood.cwsthemes.com/shop/">SPONSORS</a>
-							<ul class="sub-menu">
-								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-692"><a href="http://vintwood.cwsthemes.com/shop/">Shop</a>
-								</li>
-								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-689"><a href="http://vintwood.cwsthemes.com/checkout/">Checkout</a>
-								</li>
-								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-690"><a href="http://vintwood.cwsthemes.com/cart/">Cart</a>
-								</li>
-							</ul>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-691"><a href="/sponsors.html">SPONSORS</a>
 						</li>
 					</ul>
 				</div>
@@ -1852,18 +1830,6 @@
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/cws-svgicons/cwssvgi_f.js'></script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js'></script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js'></script>
-	<script type='text/javascript'>
-		/* <![CDATA[ */
-		var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
-		/* ]]> */
-	</script>
-	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js'></script>
-	<script type='text/javascript'>
-		/* <![CDATA[ */
-		var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_91752c76e780cbc0d52b6f969e61fa5e","fragment_name":"wc_fragments_91752c76e780cbc0d52b6f969e61fa5e"};
-		/* ]]> */
-	</script>
-	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js'></script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-includes/js/underscore.min.js'></script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-includes/js/backbone.min.js'></script>
 	<script type='text/javascript'>

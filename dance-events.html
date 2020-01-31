@@ -49,13 +49,13 @@
 	<link rel='stylesheet' id='-css' href='http://fonts.googleapis.com/css?family=Merriweather%3A300%2Cregular%2C700%7CBarlow+Condensed%3Aregular%2C700%7CBarlow+Condensed%3Aregular%2C700%7CSatisfy%3Aregular&amp;subset=latin&amp;ver=4.9.9' type='text/css' media='all' />
 	<link rel='stylesheet' id='reset-css' href='/assets/reset.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='layout-css' href='/assets/layout.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='cws_font_awesome-css' href='http://vintwood.cwsthemes.com/wp-content/themes/vintwood/fonts/font-awesome/font-awesome.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='cws_font_awesome-css' href='/assets/fontawesome.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='fancybox-css' href='/assets/jquery.fancybox.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='select2_init-css' href='/assets/select2.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='animate-css' href='/assets/animate.css' type='text/css' media='all' />
 	<link rel="stylesheet" id='empty-inline-css' href="/assets/inline.css" />
 	<link rel='stylesheet' id='cws_flaticon-css' href='http://vintwood.cwsthemes.com/wp-content/themes/vintwood/fonts/flaticon/flaticon.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='font-awesome-css' href='http://vintwood.cwsthemes.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='font-awesome-css' href='/assets/fontawesome.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='cws_iconpack-css' href='http://vintwood.cwsthemes.com/wp-content/themes/vintwood/fonts/cws-iconpack/flaticon.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='cws_main-css' href='/assets/main.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='woocommerce-css' href='http://vintwood.cwsthemes.com/wp-content/themes/vintwood/woocommerce/css/woocommerce.css' type='text/css' media='all' />
@@ -70,25 +70,14 @@
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-includes/js/jquery/jquery.js'></script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
 	<script type='text/javascript'>
-		/* <![CDATA[ */
 		var simpleLikes = {"ajaxurl":"http:\/\/vintwood.cwsthemes.com\/wp-admin\/admin-ajax.php","like":"Like","unlike":"Unlike"};
-		/* ]]> */
 	</script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/cws-essentials/assets/js/simple-likes-public.js'></script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/cws-megamenu/assets/js/cws_megamenu_front.js'></script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
-	<script type='text/javascript'>
-		/* <![CDATA[ */
-		var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/vintwood.cwsthemes.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
-		/* ]]> */
-	</script>
-	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js'></script>
-	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js'></script>
-	<script type='text/javascript'>
-		/* <![CDATA[ */
+	<script>
 		var ajaxurl = {"templateDir":"http:\/\/vintwood.cwsthemes.com\/wp-content\/themes\/vintwood","url":"http:\/\/vintwood.cwsthemes.com\/wp-admin\/admin-ajax.php"};
-		/* ]]> */
 	</script>
 	<script type='text/javascript' src='http://vintwood.cwsthemes.com/wp-content/themes/vintwood/js/scripts.js'></script>
 	<script type='text/javascript'>
@@ -100,8 +89,6 @@
 	<link rel='https://api.w.org/' href='http://vintwood.cwsthemes.com/wp-json/' />
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://vintwood.cwsthemes.com/xmlrpc.php?rsd" />
 	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://vintwood.cwsthemes.com/wp-includes/wlwmanifest.xml" />
-	<meta name="generator" content="WordPress 4.9.9" />
-	<meta name="generator" content="WooCommerce 3.4.5" />
 	<link rel="canonical" href="index.html" />
 	<link rel='shortlink' href='index.html' />
 	<link rel="alternate" type="application/json+oembed" href="http://vintwood.cwsthemes.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fvintwood.cwsthemes.com%2F" />
@@ -135,185 +122,63 @@
 
     <div class="side_panel_overlay fade"></div>
     <div class="side_panel_container left fade">
-        <div class="side_panel_bg left fade"></div>
-        <aside class="side_panel left fade">
-            <div class="side_panel_wrapper close-left">
-
-                <div class="mobile_menu_bar">
-                    <div class="close_side_panel mobile_menu_hamburger mobile_menu_hamburger--htx deactive">
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-            <div class="cws-widget widget-cws-contact">
-                <div id='cws_contact_info_widget_5c878da5e89de' class='cws_textwidget_content'>
-                    <div class="text_description">
-
-                        <div class="logo_description">
-                            <img src='http://vintwood.cwsthemes.com/wp-content/uploads/2018/09/logo_side.png' data-no-retina alt />
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="cws-widget widget-nav_menu">
-                <div class="menu-main-container">
-                    <ul class="menu">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-313"><a href="http://vintwood.cwsthemes.com/">HOME</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1111"><a href="http://vintwood.cwsthemes.com/">Retro Portfolio</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="http://vintwood.cwsthemes.com/home-retro-party/">Retro Party</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-180"><a href="http://vintwood.cwsthemes.com/our-team/">PAGES</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-371"><a href="http://vintwood.cwsthemes.com/about-us/">About Us</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-470"><a href="http://vintwood.cwsthemes.com/our-services/">Our Services</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-560"><a href="http://vintwood.cwsthemes.com/our-approaches/">Our Approaches</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="http://vintwood.cwsthemes.com/pricing-plans/">Pricing Plans</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><a href="http://vintwood.cwsthemes.com/our-team/">Our Team</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="http://vintwood.cwsthemes.com/content-elements/">Content Elements</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-178"><a href="http://vintwood.cwsthemes.com/full-width-with-filter/">PORTFOLIO</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="http://vintwood.cwsthemes.com/full-width-with-filter/">Full-Width with Filter</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-569"><a href="http://vintwood.cwsthemes.com/gallery/">Gallery</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a href="http://vintwood.cwsthemes.com/gallery-2-cols/">Two Columns</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="http://vintwood.cwsthemes.com/gallery-3-cols/">Three Columns</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-177"><a href="http://vintwood.cwsthemes.com/gallery-4-cols/">Four Columns</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-megamenu_item menu-item-748"><span class='cws_megamenu_item_title'>BLOG</span><span class='button_open'></span><span class='pointer'></span>
-                            <ul class="sub-menu">
-                                <li class='cws_megamenu_item dis_full_width' data-width='1170' data-pos='center'>
-                                    <!-- CWS Row -->
-                                    <div class="cws-content" style="background-repeat:repeat;background-size:initial;background-attachment:scroll;background-position:0% 0%;">
-                                        <div class="cws_extra_wrapper">
-                                            <div class="vc_row wpb_row vc_row-fluid">
-                                                <div class="wpb_column vc_column_container vc_col-sm-4 cws-column">
-                                                    <div class="cws_vc_column-inner ">
-                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                                                            <div class="vc_column-inner ">
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="vc_wp_custommenu wpb_content_element">
-                                                                        <div class="widget widget_nav_menu">
-                                                                            <h2 class="widgettitle">Blog</h2>
-                                                                            <div class="menu-blog-container">
-                                                                                <ul class="menu">
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-777 current_page_item menu-item-780"><a href="index.html">Checkerboard</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-781"><a href="http://vintwood.cwsthemes.com/blog-masonry/">Masonry</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-792"><a href="http://vintwood.cwsthemes.com/blog-masonry-full-width/">Masonry Full Width</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-807"><a href="http://vintwood.cwsthemes.com/blog-2-columns/">Two Columns</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="http://vintwood.cwsthemes.com/blog-3-columns/">Three Columns</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-809"><a href="http://vintwood.cwsthemes.com/blog-4-columns/">Four Columns</a></li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!-- CWS Column -->
-                                                    </div>
-                                                </div>
-                                                <div class="wpb_column vc_column_container vc_col-sm-4 cws-column">
-                                                    <div class="cws_vc_column-inner ">
-                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                                                            <div class="vc_column-inner ">
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="vc_wp_custommenu wpb_content_element">
-                                                                        <div class="widget widget_nav_menu">
-                                                                            <h2 class="widgettitle">Standard</h2>
-                                                                            <div class="menu-standard-container">
-                                                                                <ul class="menu">
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-812"><a href="http://vintwood.cwsthemes.com/large-images/">Large Images</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-825"><a href="http://vintwood.cwsthemes.com/medium-images/">Medium Images</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-824"><a href="http://vintwood.cwsthemes.com/small-images/">Small Images</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-830"><a href="http://vintwood.cwsthemes.com/right-sidebar/">Right Sidebar</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-833"><a href="http://vintwood.cwsthemes.com/left-sidebar/">Left Sidebar</a></li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!-- CWS Column -->
-                                                    </div>
-                                                </div>
-                                                <div class="wpb_column vc_column_container vc_col-sm-4 cws-column">
-                                                    <div class="cws_vc_column-inner ">
-                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                                                            <div class="vc_column-inner ">
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="vc_wp_custommenu wpb_content_element">
-                                                                        <div class="widget widget_nav_menu">
-                                                                            <h2 class="widgettitle">Post Types</h2>
-                                                                            <div class="menu-post-types-container">
-                                                                                <ul class="menu">
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-741"><a href="http://vintwood.cwsthemes.com/2018/09/07/tincidunt-arcu-netus/">Audio</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-742"><a href="http://vintwood.cwsthemes.com/2018/09/07/dolor-ut-nisi-mattis/">Gallery</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-743"><a href="http://vintwood.cwsthemes.com/2018/09/07/sapien-a-sodales/">Link</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-744"><a href="http://vintwood.cwsthemes.com/2018/09/07/non-neque-ultrices/">Quote</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-745"><a href="http://vintwood.cwsthemes.com/2018/09/07/faucibus-orci-diam/">Standard</a></li>
-                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-746"><a href="http://vintwood.cwsthemes.com/2018/09/07/commodo-ut-aliquam/">Video</a></li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!-- CWS Column -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-691"><a href="http://vintwood.cwsthemes.com/shop/">SHOP</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-692"><a href="http://vintwood.cwsthemes.com/shop/">Shop</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-689"><a href="http://vintwood.cwsthemes.com/checkout/">Checkout</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-690"><a href="http://vintwood.cwsthemes.com/cart/">Cart</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184"><a href="http://vintwood.cwsthemes.com/contacts/">CONTACTS</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="cws-widget widget-search">
-                <form method='get' class='search-form' action='http://vintwood.cwsthemes.com/'>
-                    <div class='search_wrapper'>
-                        <label><span class='screen-reader-text'>Search for:</span></label>
-                        <input type='text' placeholder='Type and press Enter ...' class='search-field' value='' name='s' />
-                        <input type='submit' class='search-submit' value=' FIND ' />
-                    </div>
-                </form>
-            </div>
-            <div class="cws-widget widget-cws-contact">
-                <div id='cws_contact_info_widget_5c878da600968' class='cws_textwidget_content'>
-                    <div class="cws_social_links position-center size-1x" style="text-align: center;">
-                        <a id="cws_social_icon_5c878da6009c2" href="https://www.facebook.com/" class="cws_social_link squared" title="Facebook" target="_blank">
-                            <i class="social_icon cws_fa fa fa fa-facebook fa-1x simple_icon"></i>
-                        </a>
-                        <a id="cws_social_icon_5c878da6009f8" href="https://twitter.com/" class="cws_social_link squared" title="Twitter" target="_blank">
-                            <i class="social_icon cws_fa fa fa fa-twitter fa-1x simple_icon"></i>
-                        </a>
-                        <a id="cws_social_icon_5c878da600a3c" href="https://www.youtube.com/" class="cws_social_link squared" title="Youtube" target="_blank">
-                            <i class="social_icon cws_fa fa fa fa-youtube-play fa-1x simple_icon"></i>
-                        </a>
-                        <a id="cws_social_icon_5c878da600a7c" href="https://www.linkedin.com/" class="cws_social_link squared" title="Linkedin" target="_blank">
-                            <i class="social_icon cws_fa fa fa fa-linkedin fa-1x simple_icon"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </aside>
-    </div>
+		<div class="side_panel_bg left fade"></div>
+		<aside class="side_panel left fade">
+			<div class="side_panel_wrapper close-left">
+				<div class="mobile_menu_bar">
+					<div class="close_side_panel mobile_menu_hamburger mobile_menu_hamburger--htx deactive">	<span></span>
+					</div>
+				</div>
+			</div>
+			<div class="cws-widget widget-cws-contact">
+				<div id='cws_contact_info_widget_5c87546f5bdd9' class='cws_textwidget_content'>
+					<div class="text_description">
+						<div class="logo_description">
+							<img src='http://vintwood.cwsthemes.com/wp-content/uploads/2018/09/logo_side.png' data-no-retina alt />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cws-widget widget-nav_menu">
+				<div class="menu-main-container">
+					<ul class="menu">
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-186 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-313"><a href="index.html">HOME</a>
+						</li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-180"><a href="http://vintwood.cwsthemes.com/our-team/">Events</a>
+							<ul class="sub-menu">
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-371"><a href="http://vintwood.cwsthemes.com/about-us/">About Us</a>
+								</li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-470"><a href="http://vintwood.cwsthemes.com/our-services/">Our Services</a>
+								</li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-560"><a href="http://vintwood.cwsthemes.com/our-approaches/">Our Approaches</a>
+								</li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="http://vintwood.cwsthemes.com/pricing-plans/">Pricing Plans</a>
+								</li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><a href="http://vintwood.cwsthemes.com/our-team/">Our Team</a>
+								</li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="http://vintwood.cwsthemes.com/content-elements/">Content Elements</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-megamenu_item menu-item-748"><span class='cws_megamenu_item_title'>MEMBERS</span><span class='button_open'></span><span class='pointer'></span>
+						</li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-691"><a href="/sponsors.html">SPONSORS</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="cws-widget widget-cws-contact">
+				<div id='cws_contact_info_widget_5c87546f6702a' class='cws_textwidget_content'>
+					<div class="cws_social_links position-center size-1x" style="text-align: center;">
+						<a id="cws_social_icon_5c87546f67085" href="https://www.facebook.com/SaptrangNitd/" class="cws_social_link squared" title="Facebook" target="_blank">	<i class="social_icon cws_fa fa fa fa-facebook fa-1x simple_icon"></i>
+						</a>
+						<a id="cws_social_icon_5c87546f670cd" href="http://www.instagram.com/saptrangnitd" class="cws_social_link squared" title="Instagram" target="_blank">	<i class="social_icon cws_fa fa fa fa-instagram fa-1x simple_icon"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</div>
     <!-- body cont -->
     <div class='body-cont'>
         <div id="cws_page_loader_container" class="cws_loader_container">
@@ -335,152 +200,107 @@
             <div class="container wide_container"></div>
         </div>
         <div class="header_wrapper_container disabled_top_bar">
-            <div class='header_cont'>
-                <header class='site_header sticky_enable sticky_shadow logo-center menu-center logo-in-menu mobile-icons-left'>
-                    <!-- header -->
-                    <div class="header_container">
-                        <!-- header_container -->
-
-                        <div class="header_zone">
-                            <!-- header_zone -->
-                            <!-- logo_box -->
-                            <!-- /logo_box -->
-                            <!-- menu_box -->
-                            <div class='menu_box'>
-                                <div class="container wide_container">
-                                    <div class="header_nav_part">
-                                        <nav class="main-nav-container"> <span class='left-stripe'></span>
-                                            <div class="menu_left_icons">
-                                                <div data-menu="menu_box" class="mobile_menu_switcher mobile_menu_hamburger mobile_menu_hamburger--htx">
-                                                    <div class="mobile_menu_hamburger_wrapper"> <span></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="menu_main_wrapper">
-                                                <div class="menu-left-part">
-                                                    <ul class="main-menu">
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-186 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-313 link_align_"><a href="index.html">HOME</a>
-                                                        </li>
-
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-691 link_align_ right"><a href="/members.html">MEMBERS</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="header_logo_part menu-center-part">
-                                                    <a class="logo" href="index.html">
-                                                        <img src='/assets/images/sticky logo.png' data-at2x='/assets/images/sticky logo.png' alt='sticky_logo' class='logo_sticky' />
-                                                        <img src='/assets/images/logo_mobile.png' data-at2x='/assets/images/logo_mobile.png' alt='logo_mobile' class='logo_mobile' />
-                                                        <img src='/assets/images/stick logo with stripe.png' data-at2x='/assets/images/stick logo with stripe.png' alt='logo_with_stripe' style='margin-bottom:-17px;' class="logo_desktop" />
-                                                    </a>
-                                                </div>
-                                                <div class="menu-right-part">
-                                                    <ul class="main-menu">
-
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-178 link_align_"><a href="http://vintwood.cwsthemes.com/full-width-with-filter/">EVENTS</a>
-                                                            <span class='button_open'></span>
-                                                            <ul class="sub-menu">
-                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179 link_align_"><a href="/events.html#Photography">Photography</a>
-                                                                </li>
-                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-569 link_align_"><a href="/art-club-events.htmls">Arts</a>
-                                                                </li>
-                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175 link_align_"><a href="/events.html#Literature">Literature</a>
-                                                                </li>
-                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176 link_align_"><a href="/events.html#Music">Music</a>
-                                                                </li>
-                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-177 link_align_"><a href="/dance-events.html">Dance</a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184 link_align_ right"><a href="http://vintwood.cwsthemes.com/contacts/">SPONSORS</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div><span class='right-stripe'></span>
-                                        </nav>
-                                    </div>
-                                </div>
-                                <div class="mobile_menu_wrapper show_on_tablets">
-                                    <div class="mobile_menu_container">
-                                        <ul class="mobile_menu main-menu">
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-186 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-313"><span class="menu_row"><a href="index.html">HOME</a><span class='button_open'></span></span>
-                                            </li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-180"><span class="menu_row"><a href="http://vintwood.cwsthemes.com/our-team/">EVENTS</a><span class='button_open'></span></span>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-371"><span class="menu_row"><a href="/events.html#Photography">Photography</a>/span>
+			<div class='header_cont'>
+				<header class='site_header sticky_enable sticky_shadow logo-center menu-center logo-in-menu mobile-icons-left'>
+					<!-- header -->
+					<div class="header_container">
+						<!-- header_container -->
+						<div class="header_zone">
+							<!-- header_zone -->
+							<!-- menu_box -->
+							<div class='menu_box'>
+								<div class="container wide_container">
+									<div class="header_nav_part">
+										<nav class="main-nav-container">	<span class='left-stripe'></span>
+											<div class="menu_left_icons">
+												<div data-menu="menu_box" class="mobile_menu_switcher mobile_menu_hamburger mobile_menu_hamburger--htx">
+													<div class="mobile_menu_hamburger_wrapper">	<span></span>
+														<span></span>
+														<span></span>
+													</div>
+												</div>
+											</div>
+											<div class="menu_main_wrapper">
+												<div class="menu-left-part">
+													<ul class="main-menu">
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-186 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-313 link_align_"><a href="index.html">HOME</a>
+														</li>
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-691 link_align_ right"><a href="/members.html">MEMBERS</a>
+														</li>
+													</ul>
+												</div>
+												<div class="header_logo_part menu-center-part">
+													<a class="logo" href="index.html">
+														<img src='/assets/images/sticky logo.png' data-at2x='/assets/images/sticky logo.png' alt='sticky_logo' class='logo_sticky' />
+														<img src='/assets/images/logo_mobile.png' data-at2x='/assets/images/logo_mobile.png' alt='logo_mobile' class='logo_mobile' />
+														<img src='/assets/images/stick logo with stripe.png' data-at2x='/assets/images/stick logo with stripe.png' alt='logo_with_stripe' style='margin-bottom:-17px;' class="logo_desktop" />
+													</a>
+												</div>
+												<div class="menu-right-part">
+													<ul class="main-menu">
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-178 link_align_"><a href="http://vintwood.cwsthemes.com/full-width-with-filter/">EVENTS</a>
+															<span class='button_open'></span>
+															<ul class="sub-menu">
+																<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179 link_align_"><a href="/events.html#Photography">Photography</a>
+																</li>
+																<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-569 link_align_"><a href="/art-club-events.htmls">Arts</a>
+																</li>
+																<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175 link_align_"><a href="/events.html#Literature">Literature</a>
+																</li>
+																<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176 link_align_"><a href="/events.html#Music">Music</a>
+																</li>
+																<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-177 link_align_"><a href="/dance-events.html">Dance</a>
+																</li>
+															</ul>
+														</li>
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184 link_align_ right"><a href="http://vintwood.cwsthemes.com/contacts/">SPONSORS</a>
+														</li>
+													</ul>
+												</div>
+											</div><span class='right-stripe'></span>
+										</nav>
+									</div>
+								</div>
+								<div class="mobile_menu_wrapper show_on_tablets">
+									<div class="mobile_menu_container">
+										<ul class="mobile_menu main-menu">
+											<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-186 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-313"><span class="menu_row"><a href="index.html">HOME</a><span class='button_open'></span></span>
+											</li>
+											<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-180"><span class="menu_row"><a href="http://vintwood.cwsthemes.com/our-team/">EVENTS</a><span class='button_open'></span></span>
+												<ul class="sub-menu">
+													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-371"><span class="menu_row"><a href="/events.html#Photography">Photography</a>/span>
 													</li>
 													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-470"><span class="menu_row"><a href="/art-club-events.htmls">Arts</a></span>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-560"><span class="menu_row"><a href="/events.html#Literature">Literature</a></span>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><span class="menu_row"><a href="/events.html#Music">Music</a></span>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><span class="menu_row"><a href="/dance-events.html">Dance</a></span>
-                                                    </li>
-                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><span class="menu_row"><a href="http://vintwood.cwsthemes.com/content-elements/">Content Elements</a></span>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-178"><span class="menu_row"><a href="http://vintwood.cwsthemes.com/full-width-with-filter/">MEMBERS</a><span class='button_open'></span></span>
-                                            </li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184 right"><span class="menu_row"><a href="http://vintwood.cwsthemes.com/contacts/">SPONSORS</a></span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <!-- /header_zone -->
-                        <!-- header_box -->
-                        <div class='header_box bg_page_header with_image' style='min-height:390px;'>
-                            <section class='page_title'>
-                                <div class="container header_center">
-                                    <div class="title">
-                                        <h1 style="color:#4f7b70;">DANCE Events</h1></div>
-                                    <div class="title_dividers"><span></span><span></span><span></span></div>
-                                    <div class="bread-crumbs-wrapper">
-                                        <svg class="left-shape" width="78" height="52">
-                                            <defs>
-                                                <pattern id="pattern3" patternUnits="objectBoundingBox" width="100%" height="100%">
-                                                    <rect class="rect-pattern" x="0" y="0" width="100%" height="100%" stroke-width="0" />
-                                                    <image href="http://vintwood.cwsthemes.com/wp-content/themes/vintwood/img/patterns/shape_pattern.png" x="0" y="0" width="100%" height="100%" />
-                                                    <rect x="0" y="0" width="100%" height="100%" stroke-width="0" fill="rgba(0,0,0,.15)" />
-                                                </pattern>
-                                            </defs>
-
-                                            <path id="svg_3" d="M0.7,0.2l12,25.9L0.7,51.5l76.9,0.1l0.1-51.2C77.6,0.4,0.7,0.2,0.7,0.2z" fill="url(#pattern3)" />
-                                        </svg>
-                                        <nav class="bread-crumbs"><a href="http://vintwood.cwsthemes.com/" rel="v:url" property="v:title">Home</a><span class='delimiter'></span><span class="current">DANCE</span></nav>
-                                        <!-- .breadcrumbs -->
-                                        <svg class="right-shape" width="78" height="52">
-                                            <defs>
-                                                <pattern id="pattern4" patternUnits="userSpaceOnUse" width="100%" height="100%">
-                                                    <rect class="rect-pattern" x="0" y="0" width="100%" height="100%" stroke-width="0" />
-                                                    <image href="http://vintwood.cwsthemes.com/wp-content/themes/vintwood/img/patterns/shape_pattern.png" x="0" y="0" width="100%" height="100%" />
-                                                    <rect x="0" y="0" width="100%" height="100%" stroke-width="0" fill="rgba(0,0,0,.15)" />
-                                                </pattern>
-                                            </defs>
-
-                                            <path id="svg_4" d="M0,0.4L0,51.6l76.9-0.1L64.9,26.1l12-25.9C76.8,0.2,0,0.4,0,0.4z" fill="url(#pattern4)" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </section>
-                            <div class='bg_layer'></div>
-                            <div class='header_img_wrap'><img src='http://vintwood.cwsthemes.com/wp-content/uploads/2018/09/sunny_1080x1080_03.png' alt='header_image' /></div>
-                        </div>
-                        <!-- /header_box -->
-                    </div>
-                    <!-- header_container -->
-                </header>
-                <!-- header -->
-                
-                
-                
-            </div>
-        </div>
+													</li>
+													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-560"><span class="menu_row"><a href="/events.html#Literature">Literature</a></span>
+													</li>
+													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><span class="menu_row"><a href="/events.html#Music">Music</a></span>
+													</li>
+													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><span class="menu_row"><a href="/dance-events.html">Dance</a></span>
+													</li>
+													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><span class="menu_row"><a href="http://vintwood.cwsthemes.com/content-elements/">Content Elements</a></span>
+													</li>
+												</ul>
+											</li>
+											<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-178"><span class="menu_row"><a href="http://vintwood.cwsthemes.com/full-width-with-filter/">MEMBERS</a><span class='button_open'></span></span>
+											</li>
+											<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184 right"><span class="menu_row"><a href="http://vintwood.cwsthemes.com/contacts/">SPONSORS</a></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- /menu_box -->
+						</div>
+						<!-- /header_zone -->
+						<!-- header_box -->
+						<!-- /header_box -->
+					</div>
+					<!-- header_container -->
+				</header>
+				<!-- header -->
+			</div>
+		</div>
         <div id="main" class="site-main">
             <div class="_sidebar sb_left page_content">
                 <div class="container">

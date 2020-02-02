@@ -1,4 +1,145 @@
+/*-----------------------------------------------------------------------------------
 
+	Template Name: vintwood
+	Template URI: http://themeforest.net/user/CreativeWS/portfolio
+	Author URI: http://creaws.com
+
+-------------------------------------------------------------------------------------
+== COMMON
+	-- flaticon
+== WP STANDARD
+	-- checkbox
+	-- radiobutton
+== SOCIAL LINKS
+	-- social links in widget
+== GRID
+== EQUAL COLUMNS
+== ROW BACKGROUND SETTINGS
+== FORM
+	-- contact form 7
+== TYPOGRAPHY
+	-- headings
+	-- definition list
+== SELECT 2
+	-- select2 arrow
+== SELECT2
+== CLEARFIX
+== HEADER
+	-- cws revslider
+	-- full screen video
+	-- header image
+	-- menu
+	-- menu search
+	-- disable mobile menu
+	-- mobile menu
+	+++ menu hamburger
+	+++ mobile menu opener
+	-- sub-menu
+	-- menu bar
+	-- menu top bar
+	-- sticky-menu
+	-- after slider
+== PAGE TITLE
+	-- page title customized
+== TOP PANEL
+	-- menu icon bar
+== SIDE PANEL
+== BLOG
+	-- for ie 9
+	-- hover effect
+	-- post formats
+	+++ video
+	+++ audio
+	+++ link
+	+++ gallery
+	+++ quote
+== PAGINATION
+	-- load more
+== NEWS LAYOUT
+== NEWS LAYOUT
+== GRID
+	-- post grid
+	-- full width grid
+== PORTFOLIO
+	-- portfolio single
+	+++ portfolio single related
+	-- portfolio full width
+== OURTEAM
+== TESTIMONIALS
+	-- testimonials single
+== BLOG SHORTCODE
+== CAROUSEL
+== WIDGETS
+	-- widget archives and menu widget
+	-- widget recent comments
+	-- widget calendar
+	-- tagcloud
+	-- cws text widget
+	-- cws latest posts
+	-- cws portfolio
+	-- cws twitter
+	-- cws contact
+	-- cws about
+== BENEFITS AREA
+	-- new benefits
+== SHORTCODES
+== BUTTONS
+== MESSAGE BOXES
+== TWITTER
+== MILESTONE
+== ICON
+== DROPCAP
+== DIVIDER
+== TABS
+== PRICING TABLE
+	-- price
+	-- price details
+	-- pricing table list
+== CALLOUT
+== PARALLAX
+== COMMENTS
+== FOOTER
+	-- widget title
+== FOOTER
+== COPYRIGHTS AREA
+== SEARCH
+	-- search widget
+== MAP
+== 404 PAGE
+== SCROLL TOP
+== ROW BG VIDEO
+== RESPONSIVE
+	-- 1190px
+	-- 980px
+	-- 767px
+	-- 479px
+== TYPOGRAPHY EXTENDED
+	-- blockquote
+	-- table
+	-- list
+	-- shapes
+	-- title separator
+== CONTACT FORM
+== PROGRESS BAR
+== ACCORDION
+	-- accordion alternative
+	-- borderless style
+== TOGGLE
+== BLOG EXTENDED
+	-- post
+	-- grayscale
+	-- colored box
+	-- fix some styles
+== EFFECTS (HOVER)
+	-- our team
+	-- hover colored box
+== EFFECTS (HOVER)
+== TESTIMONIALS SLIDER
+== TOOLTIP
+-----------------------------------------------------------------------------------*/
+/*
+== COMMON
+*/
 
 html{
 	-webkit-font-smoothing: antialiased;
@@ -481,7 +622,7 @@ p>img[class*="wp-image-"],
 
 .cws_img_frame:after,
 .gallery-icon a:after{
-	font-family: Flaticon;
+	font-family: cwsicon;
 	display: block;
 	position: absolute;
     left: 50%;
@@ -536,7 +677,7 @@ p>img[class*="wp-image-"],
 
 .cws-widget .cws_img_frame:after,
 .cws-widget .gallery-icon a:after{
-	font-family: Flaticon;
+	font-family: cwsicon;
 	left: 50%;
 	top: 50%;
 	-webkit-transform: translate(-50%,-50%);
@@ -567,7 +708,7 @@ p>img[class*="wp-image-"],
 .gallery[class*='galleryid-'] .owl-item:not(:only-child) .gallery-icon a[href*=".png"]:after,
 .gallery[class*='galleryid-'] .owl-item:not(:only-child) .gallery-icon a[href*=".gif"]:after{
 	content: "\f116";
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 }
 .gallery-item:only-child .gallery-icon a[href*=".jpg"]:after,
 .gallery-item:only-child .gallery-icon a[href*=".jpeg"]:after,
@@ -582,7 +723,7 @@ p>img[class*="wp-image-"],
 
 .cws-widget .cws_img_frame:after,
 .cws-widget .gallery-icon a:after{
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
     content: "\f15e";
     font-size: 21px;
     display: none;
@@ -682,7 +823,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:before {
 	content: '\f110';
-	font-family: "Flaticon";
+	font-family: "cwsicon";
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	position: absolute;
@@ -1248,7 +1389,7 @@ form.wpcf7-form > div:not(.wpcf7-response-output) .select2-selection--single .se
     top: 0;
 }
 form.wpcf7-form > div:not(.wpcf7-response-output) .select2-selection--single .select2-selection__arrow b:before{
-	font-family: Flaticon;
+	font-family: cwsicon;
     font-style: normal;
     content: "\f102";
 	color:inherit;
@@ -2012,7 +2153,7 @@ header:not(.logo-in-menu) .main-nav-container .main-menu > .menu-item{
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Flaticon';
+    font-family: 'cwsicon';
     font-style: normal;
     content: "\f160";
 	position: absolute;
@@ -2325,7 +2466,7 @@ header:not(.logo-in-menu) .main-menu{
 }
 
 .site_header .search_menu:before{
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
     font-style: normal;
     content: "\f178";
 	font-size: 21px;
@@ -2336,8 +2477,8 @@ header:not(.logo-in-menu) .main-menu{
 	-ms-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-.Flaticon-search-icon:before{
-	font-family: 'Flaticon';
+.cwsicon-search-icon:before{
+	font-family: 'cwsicon';
     font-style: normal;
     content: "\f178";
 
@@ -2394,7 +2535,7 @@ header:not(.logo-in-menu) .main-menu{
     height: 40px;
 }
 .site_header .search_menu_cont .search_back_button:before{
-    font-family: Flaticon;
+    font-family: cwsicon;
     content: "\f115";
     font-size: 20px;
     position: absolute;
@@ -3856,7 +3997,7 @@ li.header_logo_part:before{
 }
 .cws_default .page_title .bread-crumbs .delimiter:before{
 	content: '\f184';
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	font-style: normal;
 }
 .page_title .bread-crumbs-wrapper{
@@ -3918,7 +4059,7 @@ li.header_logo_part:before{
 }
 .page_title .bread-crumbs-wrapper .bread-crumbs .delimiter:before{
 	content: '\f184';
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	display: inline-block;
 }
 .st55{
@@ -4500,7 +4641,7 @@ body.search-on-wrap #site_top_panel{
 #site_top_panel .search_icon:before {
 	content: "\f178";
 	display: inline-block;
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	font-size: inherit;
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
@@ -5264,7 +5405,7 @@ body.override_boxed_layout .side_panel_container.right.slide{
 }
 .news .item.format-link .post_title:before{
 	content: '\f127';
-    font-family: 'Flaticon';
+    font-family: 'cwsicon';
     background: transparent;
     font-weight: 400;
     float: right;
@@ -5632,7 +5773,7 @@ body.override_boxed_layout .side_panel_container.right.slide{
 }
 .news .post_post.format-quote .author_name:before{
 	content: '\f120';
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	display: inline-block;
 	vertical-align: middle;
 	position: relative;
@@ -8200,7 +8341,7 @@ background: linear-gradient(#7b6cd5 0%, #ab46bc 100%); /* W3C, IE10+, FF16+, Chr
 	bottom: 0;
 	right: 0;
 	display: block;
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	font-size: 20px;
 	line-height: 46px;
 	width: 46px;
@@ -8231,7 +8372,7 @@ background: linear-gradient(#7b6cd5 0%, #ab46bc 100%); /* W3C, IE10+, FF16+, Chr
 .news .media_part > .testimonial.without_image .quote:before,
 .news .media_part > .testimonial:not(.without_image):before{
 	content: "\f11a";
-	font-family: Flaticon;
+	font-family: cwsicon;
 	border: 0;
 	display: block;
 	position: static;
@@ -8325,7 +8466,7 @@ form.wpcf7-form p.cws_one_row input.cws_submit{
 	position: relative;
 }
 .pagination .page_links .page-numbers i:before{
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	font-size: 20px;
 	top: 50%;
 	-webkit-transition: all .2s ease;
@@ -9791,7 +9932,7 @@ body:not(.cws_mobile) .grid_fw.col-6 .item.masonry-columns-2{
 }
 .grid_row:not(.related_portfolio) .portfolio_item_post .links_wrap .links:before{
 	content: '\f116';
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
 }
@@ -11494,7 +11635,7 @@ table.tribe-mini-calendar {
 #tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-next a:after, 
 #tribe-events-header .tribe-events-sub-nav .tribe-events-nav-next a:after{
     content: "\f15d";
-    font-family: 'Flaticon';
+    font-family: 'cwsicon';
     font-size: 17px;
     border-width: 3px;
     border-style: solid;
@@ -11508,7 +11649,7 @@ table.tribe-mini-calendar {
 #tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-previous a:before, 
 #tribe-events-header .tribe-events-sub-nav .tribe-events-nav-previous a:before{
     content: "\f15c";
-    font-family: 'Flaticon';
+    font-family: 'cwsicon';
     font-size: 17px;
     border-width: 3px;
     border-style: solid;
@@ -12886,7 +13027,7 @@ div.tribe-events-notices>ul>li{
 }
 .nav_post_links .prev .wrap:before,
 .nav_post_links .next .wrap:before{
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	font-size: 31px;
 	display: inline-block;
 	position: absolute;
@@ -12993,7 +13134,7 @@ div.tribe-events-notices>ul>li{
 .owl-pagination .owl-page:before{
 	content: '\f17a';
 	display: inline-block;
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	-webkit-font-smoothing: antialiased;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -13123,7 +13264,7 @@ div.tribe-events-notices>ul>li{
 }
 .carousel_nav_panel .next:before,
 .carousel_nav_panel .prev:before{
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	position: relative;
 	font-size: 32px;
 }
@@ -13346,7 +13487,7 @@ aside .cws-widget:not(.widget-cws-gallery):not(.widget-cws-banner):not(.widget-c
 }
 
 .cws-widget .cws_img_frame:after {
-	font-family: Flaticon;
+	font-family: cwsicon;
 	display: block;
 	position: absolute;
 	left: 50%;
@@ -13871,7 +14012,7 @@ footer .cws-widget .menu-item-has-children .opener{
 }
 .footer_container .cws-widget ul.menu li >a:after{
 	content: '\f17a';
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	position: absolute;
 	right: -24px;
 	top: 49%;
@@ -14303,7 +14444,7 @@ aside .cws-widget .cws_tweet:before{
 	line-height: 1.4;
 	top: 10px;
 	left: 0;
-	font-family: Flaticon;
+	font-family: cwsicon;
 	content: "\f132";
 	display: inline-block;
 	width: 30px;
@@ -15287,7 +15428,7 @@ div.wpcf7-mail-sent-ng{
 	cursor: pointer;
 }
 .cws_msg_box.closable .cls_btn:before{
-	font-family: Flaticon;
+	font-family: cwsicon;
 	content: "\f107";
 	vertical-align: middle;
 }
@@ -16009,7 +16150,7 @@ a.icon_link{
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 	font-size: 16px;
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 }
 .cws_pricing_plan .pricing_plan_title:before{
 	left: 0;
@@ -17600,7 +17741,7 @@ ul > li{
 }
 ul > li:before{
 	content: '\f17a';
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -18768,7 +18909,7 @@ div.post_tags{
 }
 div.post_tags:before{
 	content: '\f181';
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	display: inline-block;
 	margin-right: 8px;
 }
@@ -18788,7 +18929,7 @@ div.post_category:before{
 }
 .comments_link:before{
 	content: '\f11e';
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	display: inline-block;
 	margin-right: 8px;
 }
@@ -19792,7 +19933,7 @@ button:hover:before {
 }
 .text_marked_item:before{
 	content: '\f110';
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	margin-right: 10px;
 }
 .cws_textmodule.icon_left .cws_textmodule_text{
@@ -20149,7 +20290,7 @@ div.wpcf7 .ajax-loader{
 	color:inherit;
 }
 .cws_vc_shortcode_msg_box .msg_icon:not(.custom):before{
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	content: "\f173";
 }
 .cws_vc_shortcode_msg_box .close_button{
@@ -20166,7 +20307,7 @@ div.wpcf7 .ajax-loader{
 	cursor: pointer;
 }
 .cws_vc_shortcode_msg_box .close_button:before{
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	content:  "\f115";
 	transition: all .2s ease;
 	position: relative;
@@ -20174,15 +20315,15 @@ div.wpcf7 .ajax-loader{
 	cursor: pointer;
 }
 .cws_vc_shortcode_msg_box.success .msg_icon:not(.custom):before{
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	content: "\f172";
 }
 .cws_vc_shortcode_msg_box.warn .msg_icon:not(.custom):before{
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	content: "\f175";
 }
 .cws_vc_shortcode_msg_box.error .msg_icon:not(.custom):before{
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	content: "\f115";
 }
 .cws_vc_shortcode_msg_box .content_part p{
@@ -22386,7 +22527,7 @@ lIKES
 
 .sl-icon:before{
 	display: inline-block;
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	content: "\f10d";
 	color: #9EA1A9;
 }
@@ -22701,7 +22842,7 @@ lIKES
 }
 .cws_custom_button.cws_load_more:after{
 	content: '\f118';
-	font-family: 'Flaticon';
+	font-family: 'cwsicon';
 	height: auto;
     width: auto;
     background-color: transparent;
@@ -24494,7 +24635,7 @@ hr.posts_grid_spacing:before{
 	}
 	.footer_container .cws-widget ul.menu li >a:before {
 	    content: '\f17a';
-	    font-family: 'Flaticon';
+	    font-family: 'cwsicon';
 	    position: absolute;
 	    left: -22px;
 	    top: 48%;

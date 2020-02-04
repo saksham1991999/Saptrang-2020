@@ -7,12 +7,12 @@
  @font-face {
     font-family: 'FontAwesome';
       
-    src: url('assets/Fonts/webfont.eot');
-    src: url('assets/Fonts/iefix.eot') format('embedded-opentype'),
-         url('assets/Fonts/webfont.woff') format('woff2'),
-         url('assets/Fonts/webfont.woff') format('woff'),
-         url('assets/Fonts/webfont.ttf') format('truetype'),
-         url('assets/Fonts/webfont.svg') format('svg');
+    src: url('Fonts/webfont.eot');
+    src: url('Fonts/webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/webfont.woff') format('woff2'),
+         url('Fonts/webfont.woff') format('woff'),
+         url('Fonts/webfont.ttf') format('truetype'),
+         url('Fonts/webfont.svg') format('svg');
     
       font-weight: normal;
       font-style: normal;

@@ -21,12 +21,12 @@ body.single .header_wrapper_container:after{
 	left: 0;
 	width: 100%;
 	height: 245px;
-	background-image: url('/assets/images/pattern.png');
+	background-image: url('assets/images/pattern.png');
 }
 
 body,
 .main-nav-container ul.sub-menu{
-    background-image: url('/assets/images/exclusive-paper.png');
+    background-image: url('assets/images/exclusive-paper.png');
 }
 
 img:not([src]){
@@ -3793,7 +3793,7 @@ li.header_logo_part:before{
 .page_title .title h1{
 	text-align: center;
 	text-transform: uppercase;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 	background-color: #4f7b70;
 	-webkit-font-smoothing:antialiased;
     -webkit-background-clip:text;
@@ -3876,7 +3876,7 @@ li.header_logo_part:before{
 }
 .page_title .bread-crumbs-wrapper .bread-crumbs{
 	text-align: center;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 	background-position: center 65%;
 	position: relative;
 	padding: 5px 35px;
@@ -4883,7 +4883,7 @@ aside.side_panel{
 	left: -1px;
 	padding: 30px;
 	overflow-y: scroll;
-	background-image: url('/assets/images/otis-redding.png');
+	background-image: url('assets/images/otis-redding.png');
 }
 
 aside.side_panel.dark-theme .cws-widget ul li>a,
@@ -5310,7 +5310,7 @@ body.override_boxed_layout .side_panel_container.right.slide{
 .news.posts_grid_1 .item:not(.format-link):not(.format-quote) .post_title a,
 .news.posts_grid_medium .item:not(.format-link):not(.format-quote) .post_title a,
 .news.posts_grid_small .item:not(.format-link):not(.format-quote) .post_title a{
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 	padding: 3px 5px 5px 0px;
 }
 .blog_aligning_left.news.posts_grid_1 .item:not(.format-link):not(.format-quote) .post_title,
@@ -5613,7 +5613,7 @@ body.override_boxed_layout .side_panel_container.right.slide{
 	box-sizing: border-box;
 	padding: 25px;
 	width: 100%;
-	background-image: url('/assets/images/triangles.png');
+	background-image: url('assets/images/triangles.png');
 }
 .single.news .post_post.format-link .post_media,
 .single.news .post_post.format-quote .post_media{
@@ -5710,7 +5710,7 @@ body.override_boxed_layout .side_panel_container.right.slide{
 .news .item .post_media .inline_date .month{
 	background-color: black;
 	font-size: 18px;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 	text-transform: uppercase;
 }
 .cws_portfolio .item .post_media .pic:before,
@@ -5723,7 +5723,7 @@ body.override_boxed_layout .side_panel_container.right.slide{
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 	z-index: -1;
 }
 .post_media .video{
@@ -6903,7 +6903,7 @@ article.item .post_meta > hr{
 .attachment .news .media_part{
 	float: none;
 	border: 15px solid;
-	border-image: url('/assets/images/portfolio-pattern.png') 15 round;
+	border-image: url('assets/images/portfolio-pattern.png') 15 round;
 	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,.15);
 	box-shadow: 0px 0px 5px 1px rgba(0,0,0,.15);
 }
@@ -8255,7 +8255,7 @@ form.theme_bg input,
 form.theme_bg textarea{
 	color: #333333;
 	padding: 15px;
-	background-image: url('/assets/images/exclusive-paper.png');
+	background-image: url('assets/images/exclusive-paper.png');
 }
 form.theme_bg input::placeholder,
 form.theme_bg textarea::placeholder{
@@ -8617,14 +8617,14 @@ form.wpcf7-form p.cws_one_row input.cws_submit{
 .wpb_text_column.wpb_content_element .add_border{
 	display: inline-block;
 	padding: 15px;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 	box-shadow: 0px 0px 5px 1px rgba(0,0,0, .15);
 }
 .text_content_wrapper .add_border img,
 .post_content .add_border img{
 	border-width: 15px;
 	border-style: solid;
-	border-image: url('/assets/images/portfolio-pattern.png') 15 round;
+	border-image: url('assets/images/portfolio-pattern.png') 15 round;
 	box-shadow: 0px 0px 5px 1px rgba(0,0,0,.15);
 	box-sizing: border-box;
 }
@@ -8757,7 +8757,7 @@ form.wpcf7-form p.cws_one_row input.cws_submit{
 	padding: 40px;
 	margin: 0 15px;
     width: calc(100% - 30px) !important;
-    background-image: url('/assets/images/exclusive-paper.png');
+    background-image: url('assets/images/exclusive-paper.png');
 	border: 1px solid transparent;
 	box-sizing: border-box;
     margin-bottom: 60px;
@@ -8769,7 +8769,7 @@ form.wpcf7-form p.cws_one_row input.cws_submit{
 	-o-transition: all .3s linear;
 	transition: all .3s linear;
 	border: 15px solid;
-	border-image: url('/assets/images/portfolio-pattern.png') 15 round;
+	border-image: url('assets/images/portfolio-pattern.png') 15 round;
 }
 .news .item.sticky-post:after{
 	display: none;
@@ -8927,7 +8927,7 @@ body.attachment-template-default.single-attachment .news.single .grid .item{
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 	z-index: -1;
 }
 
@@ -9587,7 +9587,7 @@ body:not(.cws_mobile) .grid_fw.col-6 .item.masonry-columns-2{
 }
 .posts_grid .item.under_img.style_round .cws_portfolio_post_title a{
 	display: inline-block;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 	background-position: center 55%;
 	padding: 5px 35px 7px;
 }
@@ -9662,7 +9662,7 @@ body:not(.cws_mobile) .grid_fw.col-6 .item.masonry-columns-2{
 	position: relative;
 	z-index: 1;
 	padding: 0 25px;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 }
 .cws_portfolio_post_terms > *{
 	vertical-align: middle;
@@ -9942,7 +9942,7 @@ body:not(.cws_mobile) .grid_fw.col-6 .item.masonry-columns-2{
 }
 .cws_portfolio_content_wrap .desc_img .cws_portfolio_post_terms{
 	margin-bottom: 0;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 }
 .cws_portfolio_content_wrap .desc_img .cws_portfolio_post_terms:before,
 .cws_portfolio_content_wrap .desc_img .cws_portfolio_post_terms:after{
@@ -12245,7 +12245,7 @@ div.tribe-events-notices>ul>li{
 	transform: translateX(-50%);
 	z-index: 3;
 	padding: 5px 18px 3px;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 	-webkit-transition: all .25s ease;
 	transition: all .25s ease;
 }
@@ -12277,7 +12277,7 @@ div.tribe-events-notices>ul>li{
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url('/assets/images/asfalt-dark.png');
+	background-image: url('assets/images/asfalt-dark.png');
 	background-position: center top;
 	background-color: #D0C7B9;
 }
@@ -12346,7 +12346,7 @@ div.tribe-events-notices>ul>li{
 	display: inline-block;
 	padding: 4px 25px 6px;
 	position: relative;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 }
 .item.cws_staff_post .cws_staff_post_info .cws_staff_post_title a:before,
 .item.cws_staff_post .cws_staff_post_info .cws_staff_post_title a:after{
@@ -12397,7 +12397,7 @@ div.tribe-events-notices>ul>li{
     margin: 0 auto;
     position: relative;
     padding: 20px;
-    background-image: url('/assets/images/asfalt-dark.png');
+    background-image: url('assets/images/asfalt-dark.png');
     background-color: #D0C7B9;
     font-size: 0px;
     line-height: 0px;
@@ -12921,7 +12921,7 @@ div.tribe-events-notices>ul>li{
 	margin-bottom: 5px;
 	position: relative;
 	padding: 15px;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 	-webkit-box-shadow: 0px 0px 3px 0 rgba(0,0,0, .15);
 			box-shadow: 0px 0px 3px 0 rgba(0,0,0, .15);
 }
@@ -13071,7 +13071,7 @@ div.tribe-events-notices>ul>li{
 }
 .gallery_post_carousel_wrapper .prev,
 .gallery_post_carousel_wrapper .next{
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 }
 .posts_grid{
 	position: relative;
@@ -13253,7 +13253,7 @@ aside .cws-widget:not(.widget-cws-gallery):not(.widget-cws-banner):not(.widget-c
 	text-align: center;
 	position: relative;
 	margin: 0 12px 20px;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 }
 #main .cws-widget .widget-title:before,
 #main .cws-widget .widget-title:after{
@@ -13578,7 +13578,7 @@ footer .cws-widget ul.sub-menu{
 	left: 20px;
 }
 aside:not(.side_panel) .cws-widget ul li:hover{
-	background-image: url('/assets/images/triangles.png');
+	background-image: url('assets/images/triangles.png');
 	background-repeat: repeat;
     background-position: initial;
     background-size: auto;
@@ -13808,7 +13808,7 @@ footer .cws-widget .menu-item-has-children .opener{
     margin-bottom: 0;
     border-width: 4px 0;
     border-style: solid;
-    background-image: url('/assets/images/portfolio-pattern.png');
+    background-image: url('assets/images/portfolio-pattern.png');
 }
 .cws-widget #wp-calendar tfoot:before {
 	position: absolute;
@@ -14057,7 +14057,7 @@ aside.side_panel .cws-widget .tagcloud a:hover{
 }
 .cws-widget .cws_img_frame{
 	padding: 10px;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,.15);
 	box-shadow: 0px 0px 5px 1px rgba(0,0,0,.15);
 }
@@ -14086,7 +14086,7 @@ aside.side_panel .cws-widget .tagcloud a:hover{
 }
 .cws-widget .post_item .post_thumb a{
 	padding: 5px;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,.15);
 	box-shadow: 0px 0px 5px 1px rgba(0,0,0,.15);
 }
@@ -14149,7 +14149,7 @@ footer .cws-widget.widget-cws-recent-posts .post_item .post_title:not(:first-chi
 }
 .cws-widget .widget_carousel .pic{
 	padding: 10px;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,.15);
 	box-shadow: 0px 0px 5px 1px rgba(0,0,0,.15);
 }
@@ -14378,7 +14378,7 @@ span.blog-meta-divider{
     margin-bottom: 0;
     display: inline-block;
     padding: 15px;
-    background-image: url('/assets/images/portfolio-pattern.png');
+    background-image: url('assets/images/portfolio-pattern.png');
     -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,.15);
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,.15);
 }
@@ -14455,7 +14455,7 @@ span.blog-meta-divider{
 	position: relative;
 	font-size: 22px;
 	padding: 0 10px 2px;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 	background-position: 28% 85%;
 }
 .widget-cws-banner .banner_button{
@@ -14470,7 +14470,7 @@ span.blog-meta-divider{
 .cws_categories_widget .item{
 	margin-bottom: 20px;
 	padding: 10px;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 	box-shadow: 0px 0px 5px 1px rgba(0,0,0,.15);
 	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,.15);
 
@@ -15978,7 +15978,7 @@ a.icon_link{
 }
 .cws_pricing_plan:before{
 	opacity: .85;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 }
 .cws_pricing_plan:after{
 	opacity: 0;
@@ -15998,7 +15998,7 @@ a.icon_link{
 }
 .cws_pricing_plan .pricing_title{
 	padding: 15px 0 17px 0;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 	text-align: center;
 }
 .cws_pricing_plan .pricing_plan_title:before,
@@ -16072,7 +16072,7 @@ a.icon_link{
 }
 .cws_pricing_plan.highlighted .pricing_plan_price .main_price_part{
 	border-bottom: 0;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 }
 .pricing_plan_price .currency{
 	vertical-align: middle;
@@ -16367,7 +16367,7 @@ a.icon_link{
 	padding-left: 50px;
 }
 .comments-area  .comment_list > .comment{
-    background-image: url('/assets/images/triangles.png');
+    background-image: url('assets/images/triangles.png');
 }
 .comments-area  .comment_list .comment .comment-body{
 	position: relative;
@@ -16444,7 +16444,7 @@ a.icon_link{
 	text-transform: uppercase;
 	margin-right: 10px;
 	padding: 0px 5px;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 }
 .pingback + .comment{
 	margin-top: 30px;
@@ -17501,7 +17501,7 @@ aside .cws-widget .search-form input.search-submit{
 	font-size: 30px;
 	line-height: 43px;
 	padding: 23px 23px 25px 75px;
-	background-image: url('/assets/images/triangles.png');
+	background-image: url('assets/images/triangles.png');
 }
 .news.single .item .post_content blockquote:before{
 	top: 20px;
@@ -17720,7 +17720,7 @@ mark{
 	width: 100%;
 	border-collapse: separate;
 	border: 0;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 	padding-bottom: 20px;
 }
 .calendar_wrap table tbody{
@@ -18885,7 +18885,7 @@ a.p_cut:hover{
 .cws_default .post_content .cws_oembed_wrapper{
 	margin-bottom: 15px;
 	border: 15px solid;
-	border-image: url('/assets/images/portfolio-pattern.png') 15 round;
+	border-image: url('assets/images/portfolio-pattern.png') 15 round;
 }
 .post_content .cws_oembed_wrapper.twitter_wrapper{
 	border: 0;
@@ -19643,8 +19643,8 @@ button:hover:before {
 	top: 14px;
 	height: 8px;
 	background-repeat: repeat-x;
-    -webkit-mask-image: url('/assets/images/star.svg');
-    mask-image: url('/assets/images/star.svg');
+    -webkit-mask-image: url('assets/images/star.svg');
+    mask-image: url('assets/images/star.svg');
 }
 .cws_textmodule .cws_textmodule_titles{
 	line-height: 0px;
@@ -19668,7 +19668,7 @@ button:hover:before {
 	right: -7px;
 }
 .cws_textmodule .cws_textmodule_titles .cws_textmodule_title.with_bg{
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 	display: inline;
 	padding: 5px 5px 5px 0;
 	white-space: pre-wrap;
@@ -19695,7 +19695,7 @@ button:hover:before {
 	line-height: initial;
 	display: inline-block;
 	padding: 0 60px;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 	background-position: center 65%;
 }
 .cws_textmodule_banner:before,
@@ -19739,7 +19739,7 @@ button:hover:before {
 	bottom: 0;
 	height: 100%;
 	z-index: -1;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 	background-position: center 65%;
 	filter: brightness(1);
 }
@@ -19945,7 +19945,7 @@ button:hover:before {
 	top: 5px;
 	width: calc(100% - 10px);
 	height: calc(100% - 10px);
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 	background-position: center 70%;
 	z-index: 2;
 }
@@ -19961,7 +19961,7 @@ button:hover:before {
 	text-align: center;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 	background-position: 11% 70%;
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
@@ -19990,7 +19990,7 @@ button:hover:before {
 	position: absolute;
 	width: calc(100% + 45px);
 	background-position: center 25%;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
 	top: 0;
@@ -20089,7 +20089,7 @@ div.wpcf7 .ajax-loader{
 	min-height: 35px;
 	background-color: #5884B2;
 	color: #fff;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 	background-position: center 65%;
 }
 .cws_vc_shortcode_msg_box .icon_part{
@@ -20112,7 +20112,7 @@ div.wpcf7 .ajax-loader{
 	background-color: #4993df;
 	-webkit-filter: brightness(80%);
 	filter: brightness(80%);
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 	background-position: 30% 65%;
 }
 .cws_vc_shortcode_msg_box.success,
@@ -20700,7 +20700,7 @@ div.wpcf7 .ajax-loader{
 
 .date-content{
 	display: block;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 	padding-bottom: 5px;
 }
 .date-content span{
@@ -20776,7 +20776,7 @@ div.wpcf7 .ajax-loader{
 	font-weight: 700;
 	text-transform: uppercase;
 	padding: 0 15px 2px;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 }
 .testimonial.style_2 .testimonial_name:before{
 	top: -25px;
@@ -21761,7 +21761,7 @@ div.wpcf7 .ajax-loader{
 .vc_tta-tabs .vc_active .vc_tta-panel-body,
 .cwsToggle .vc_tta-panel,
 .cwsAccordion .vc_tta-panel{
-	background-image: url('/assets/images/triangles.png');
+	background-image: url('assets/images/triangles.png');
 }
 
 .wpb-js-composer .vc_tta.vc_general .vc_tta-panel-body .wpb_text_column p{
@@ -21840,7 +21840,7 @@ div.wpcf7 .ajax-loader{
     height: 10px;
     background-color: rgba(215,215,215, 1);
 	overflow: hidden;
-	background-image: url('/assets/images/pb_pattern.png');
+	background-image: url('assets/images/pb_pattern.png');
 	background-position: 0px 50%;
 	animation: cws_pb_bg 1.5s infinite linear;
 }
@@ -21870,7 +21870,7 @@ div.wpcf7 .ajax-loader{
     top: 0;
     left: 0;
     height: 100%;
-    background-image: url('/assets/images/green-dust-and-scratches.png');
+    background-image: url('assets/images/green-dust-and-scratches.png');
     background-position: 50% 85%;
 }
 
@@ -23029,7 +23029,7 @@ div.vc_toggle{
 	height: 100%;
 	border-width: 15px;
 	border-style: solid;
-	border-image: url('/assets/images/portfolio-pattern.png') 15 round;
+	border-image: url('assets/images/portfolio-pattern.png') 15 round;
 	box-sizing: border-box;
 }
 .cws-content .vc_column-inner .wpb_wrapper{
@@ -23461,7 +23461,7 @@ ul li hr,
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	padding: 15px;
-	background-image: url('/assets/images/portfolio-pattern.png');
+	background-image: url('assets/images/portfolio-pattern.png');
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
@@ -23534,7 +23534,7 @@ ul li hr,
 	position: absolute;
 	z-index: 2;
 	opacity: 0;
-	background-image: url('/assets/images/otis-redding.png');
+	background-image: url('assets/images/otis-redding.png');
 	-webkit-transition: all .25s ease;
 			transition: all .25s ease;
 }
@@ -23714,7 +23714,7 @@ hr.posts_grid_spacing:before{
 .grid_row.single_related .item .post_title a{
 	padding: 5px 5px 5px 0;
 	white-space: pre-wrap;
-	background-image: url('/assets/images/green-dust-and-scratches.png');
+	background-image: url('assets/images/green-dust-and-scratches.png');
 }
 .grid_row.related_portfolio .item,
 .grid_row.single_related .item{
